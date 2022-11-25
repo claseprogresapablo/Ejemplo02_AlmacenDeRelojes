@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		95D307B22930EE5200D8EC00 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D307B12930EE5200D8EC00 /* AppDelegate.swift */; };
+		95D307B42930EE5200D8EC00 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D307B32930EE5200D8EC00 /* SceneDelegate.swift */; };
+		95D307B62930EE5200D8EC00 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D307B52930EE5200D8EC00 /* ViewController.swift */; };
+		95D307B92930EE5200D8EC00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95D307B72930EE5200D8EC00 /* Main.storyboard */; };
+		95D307BB2930EE5300D8EC00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95D307BA2930EE5300D8EC00 /* Assets.xcassets */; };
+		95D307BE2930EE5300D8EC00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95D307BC2930EE5300D8EC00 /* LaunchScreen.storyboard */; };
+		95D307C92930EE5300D8EC00 /* Ejemplo02_AlmacenDeRelojesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D307C82930EE5300D8EC00 /* Ejemplo02_AlmacenDeRelojesTests.swift */; };
+		95D307D42930EE5300D8EC00 /* Ejemplo02_AlmacenDeRelojesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D307D32930EE5300D8EC00 /* Ejemplo02_AlmacenDeRelojesUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		95D307C52930EE5300D8EC00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95D307A62930EE5200D8EC00 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95D307AD2930EE5200D8EC00;
+			remoteInfo = Ejemplo02_AlmacenDeRelojes;
+		};
+		95D307D02930EE5300D8EC00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95D307A62930EE5200D8EC00 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95D307AD2930EE5200D8EC00;
+			remoteInfo = Ejemplo02_AlmacenDeRelojes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		95D307AE2930EE5200D8EC00 /* Ejemplo02_AlmacenDeRelojes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ejemplo02_AlmacenDeRelojes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		95D307B12930EE5200D8EC00 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		95D307B32930EE5200D8EC00 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		95D307B52930EE5200D8EC00 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		95D307B82930EE5200D8EC00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		95D307BA2930EE5300D8EC00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		95D307BD2930EE5300D8EC00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		95D307BF2930EE5300D8EC00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95D307C42930EE5300D8EC00 /* Ejemplo02_AlmacenDeRelojesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Ejemplo02_AlmacenDeRelojesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		95D307C82930EE5300D8EC00 /* Ejemplo02_AlmacenDeRelojesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ejemplo02_AlmacenDeRelojesTests.swift; sourceTree = "<group>"; };
+		95D307CA2930EE5300D8EC00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95D307CF2930EE5300D8EC00 /* Ejemplo02_AlmacenDeRelojesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Ejemplo02_AlmacenDeRelojesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		95D307D32930EE5300D8EC00 /* Ejemplo02_AlmacenDeRelojesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ejemplo02_AlmacenDeRelojesUITests.swift; sourceTree = "<group>"; };
+		95D307D52930EE5300D8EC00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		95D307AB2930EE5200D8EC00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95D307C12930EE5300D8EC00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95D307CC2930EE5300D8EC00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		95D307A52930EE5200D8EC00 = {
+			isa = PBXGroup;
+			children = (
+				95D307B02930EE5200D8EC00 /* Ejemplo02_AlmacenDeRelojes */,
+				95D307C72930EE5300D8EC00 /* Ejemplo02_AlmacenDeRelojesTests */,
+				95D307D22930EE5300D8EC00 /* Ejemplo02_AlmacenDeRelojesUITests */,
+				95D307AF2930EE5200D8EC00 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		95D307AF2930EE5200D8EC00 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95D307AE2930EE5200D8EC00 /* Ejemplo02_AlmacenDeRelojes.app */,
+				95D307C42930EE5300D8EC00 /* Ejemplo02_AlmacenDeRelojesTests.xctest */,
+				95D307CF2930EE5300D8EC00 /* Ejemplo02_AlmacenDeRelojesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		95D307B02930EE5200D8EC00 /* Ejemplo02_AlmacenDeRelojes */ = {
+			isa = PBXGroup;
+			children = (
+				95D307B12930EE5200D8EC00 /* AppDelegate.swift */,
+				95D307B32930EE5200D8EC00 /* SceneDelegate.swift */,
+				95D307B52930EE5200D8EC00 /* ViewController.swift */,
+				95D307B72930EE5200D8EC00 /* Main.storyboard */,
+				95D307BA2930EE5300D8EC00 /* Assets.xcassets */,
+				95D307BC2930EE5300D8EC00 /* LaunchScreen.storyboard */,
+				95D307BF2930EE5300D8EC00 /* Info.plist */,
+			);
+			path = Ejemplo02_AlmacenDeRelojes;
+			sourceTree = "<group>";
+		};
+		95D307C72930EE5300D8EC00 /* Ejemplo02_AlmacenDeRelojesTests */ = {
+			isa = PBXGroup;
+			children = (
+				95D307C82930EE5300D8EC00 /* Ejemplo02_AlmacenDeRelojesTests.swift */,
+				95D307CA2930EE5300D8EC00 /* Info.plist */,
+			);
+			path = Ejemplo02_AlmacenDeRelojesTests;
+			sourceTree = "<group>";
+		};
+		95D307D22930EE5300D8EC00 /* Ejemplo02_AlmacenDeRelojesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				95D307D32930EE5300D8EC00 /* Ejemplo02_AlmacenDeRelojesUITests.swift */,
+				95D307D52930EE5300D8EC00 /* Info.plist */,
+			);
+			path = Ejemplo02_AlmacenDeRelojesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		95D307AD2930EE5200D8EC00 /* Ejemplo02_AlmacenDeRelojes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95D307D82930EE5300D8EC00 /* Build configuration list for PBXNativeTarget "Ejemplo02_AlmacenDeRelojes" */;
+			buildPhases = (
+				95D307AA2930EE5200D8EC00 /* Sources */,
+				95D307AB2930EE5200D8EC00 /* Frameworks */,
+				95D307AC2930EE5200D8EC00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ejemplo02_AlmacenDeRelojes;
+			productName = Ejemplo02_AlmacenDeRelojes;
+			productReference = 95D307AE2930EE5200D8EC00 /* Ejemplo02_AlmacenDeRelojes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		95D307C32930EE5300D8EC00 /* Ejemplo02_AlmacenDeRelojesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95D307DB2930EE5300D8EC00 /* Build configuration list for PBXNativeTarget "Ejemplo02_AlmacenDeRelojesTests" */;
+			buildPhases = (
+				95D307C02930EE5300D8EC00 /* Sources */,
+				95D307C12930EE5300D8EC00 /* Frameworks */,
+				95D307C22930EE5300D8EC00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95D307C62930EE5300D8EC00 /* PBXTargetDependency */,
+			);
+			name = Ejemplo02_AlmacenDeRelojesTests;
+			productName = Ejemplo02_AlmacenDeRelojesTests;
+			productReference = 95D307C42930EE5300D8EC00 /* Ejemplo02_AlmacenDeRelojesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		95D307CE2930EE5300D8EC00 /* Ejemplo02_AlmacenDeRelojesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95D307DE2930EE5300D8EC00 /* Build configuration list for PBXNativeTarget "Ejemplo02_AlmacenDeRelojesUITests" */;
+			buildPhases = (
+				95D307CB2930EE5300D8EC00 /* Sources */,
+				95D307CC2930EE5300D8EC00 /* Frameworks */,
+				95D307CD2930EE5300D8EC00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95D307D12930EE5300D8EC00 /* PBXTargetDependency */,
+			);
+			name = Ejemplo02_AlmacenDeRelojesUITests;
+			productName = Ejemplo02_AlmacenDeRelojesUITests;
+			productReference = 95D307CF2930EE5300D8EC00 /* Ejemplo02_AlmacenDeRelojesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		95D307A62930EE5200D8EC00 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					95D307AD2930EE5200D8EC00 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					95D307C32930EE5300D8EC00 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 95D307AD2930EE5200D8EC00;
+					};
+					95D307CE2930EE5300D8EC00 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 95D307AD2930EE5200D8EC00;
+					};
+				};
+			};
+			buildConfigurationList = 95D307A92930EE5200D8EC00 /* Build configuration list for PBXProject "Ejemplo02_AlmacenDeRelojes" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 95D307A52930EE5200D8EC00;
+			productRefGroup = 95D307AF2930EE5200D8EC00 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				95D307AD2930EE5200D8EC00 /* Ejemplo02_AlmacenDeRelojes */,
+				95D307C32930EE5300D8EC00 /* Ejemplo02_AlmacenDeRelojesTests */,
+				95D307CE2930EE5300D8EC00 /* Ejemplo02_AlmacenDeRelojesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		95D307AC2930EE5200D8EC00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95D307BE2930EE5300D8EC00 /* LaunchScreen.storyboard in Resources */,
+				95D307BB2930EE5300D8EC00 /* Assets.xcassets in Resources */,
+				95D307B92930EE5200D8EC00 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95D307C22930EE5300D8EC00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95D307CD2930EE5300D8EC00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95D307AA2930EE5200D8EC00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95D307B62930EE5200D8EC00 /* ViewController.swift in Sources */,
+				95D307B22930EE5200D8EC00 /* AppDelegate.swift in Sources */,
+				95D307B42930EE5200D8EC00 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95D307C02930EE5300D8EC00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95D307C92930EE5300D8EC00 /* Ejemplo02_AlmacenDeRelojesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95D307CB2930EE5300D8EC00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95D307D42930EE5300D8EC00 /* Ejemplo02_AlmacenDeRelojesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		95D307C62930EE5300D8EC00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95D307AD2930EE5200D8EC00 /* Ejemplo02_AlmacenDeRelojes */;
+			targetProxy = 95D307C52930EE5300D8EC00 /* PBXContainerItemProxy */;
+		};
+		95D307D12930EE5300D8EC00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95D307AD2930EE5200D8EC00 /* Ejemplo02_AlmacenDeRelojes */;
+			targetProxy = 95D307D02930EE5300D8EC00 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		95D307B72930EE5200D8EC00 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95D307B82930EE5200D8EC00 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		95D307BC2930EE5300D8EC00 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95D307BD2930EE5300D8EC00 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		95D307D62930EE5300D8EC00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		95D307D72930EE5300D8EC00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		95D307D92930EE5300D8EC00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Ejemplo02_AlmacenDeRelojes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cieep.Ejemplo02-AlmacenDeRelojes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		95D307DA2930EE5300D8EC00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Ejemplo02_AlmacenDeRelojes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cieep.Ejemplo02-AlmacenDeRelojes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		95D307DC2930EE5300D8EC00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Ejemplo02_AlmacenDeRelojesTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cieep.Ejemplo02-AlmacenDeRelojesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ejemplo02_AlmacenDeRelojes.app/Ejemplo02_AlmacenDeRelojes";
+			};
+			name = Debug;
+		};
+		95D307DD2930EE5300D8EC00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Ejemplo02_AlmacenDeRelojesTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cieep.Ejemplo02-AlmacenDeRelojesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ejemplo02_AlmacenDeRelojes.app/Ejemplo02_AlmacenDeRelojes";
+			};
+			name = Release;
+		};
+		95D307DF2930EE5300D8EC00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Ejemplo02_AlmacenDeRelojesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cieep.Ejemplo02-AlmacenDeRelojesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ejemplo02_AlmacenDeRelojes;
+			};
+			name = Debug;
+		};
+		95D307E02930EE5300D8EC00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Ejemplo02_AlmacenDeRelojesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cieep.Ejemplo02-AlmacenDeRelojesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ejemplo02_AlmacenDeRelojes;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		95D307A92930EE5200D8EC00 /* Build configuration list for PBXProject "Ejemplo02_AlmacenDeRelojes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95D307D62930EE5300D8EC00 /* Debug */,
+				95D307D72930EE5300D8EC00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95D307D82930EE5300D8EC00 /* Build configuration list for PBXNativeTarget "Ejemplo02_AlmacenDeRelojes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95D307D92930EE5300D8EC00 /* Debug */,
+				95D307DA2930EE5300D8EC00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95D307DB2930EE5300D8EC00 /* Build configuration list for PBXNativeTarget "Ejemplo02_AlmacenDeRelojesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95D307DC2930EE5300D8EC00 /* Debug */,
+				95D307DD2930EE5300D8EC00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95D307DE2930EE5300D8EC00 /* Build configuration list for PBXNativeTarget "Ejemplo02_AlmacenDeRelojesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95D307DF2930EE5300D8EC00 /* Debug */,
+				95D307E02930EE5300D8EC00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 95D307A62930EE5200D8EC00 /* Project object */;
+}
